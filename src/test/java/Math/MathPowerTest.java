@@ -23,5 +23,14 @@ public class MathPowerTest {
         //excepted
         Assert.assertEquals(-1, result);
     }
+    @Test
+    public void testPowerInZeroNumber(){
+        //is
+        int  number = 0;
+        //then
+        final int result = Math.power(number);
+        //excepted
+        Assert.assertEquals(1, result);
+    }
 
 }
